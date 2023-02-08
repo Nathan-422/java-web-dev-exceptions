@@ -14,7 +14,7 @@ public class Temperature {
 
         try {
             if (aFahrenheit < absoluteZeroFahrenheit) {
-                throw new TemperatureException(aFahrenheit + " is below the rhelm of science!");
+                throw new TemperatureException(aFahrenheit + " is outside the realm of science!");
             }
         } catch (Exception e) {
             e.printStackTrace();
